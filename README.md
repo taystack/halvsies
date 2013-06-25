@@ -55,20 +55,20 @@ $MAX_WIDTH to 100% for all nested halvsies.
 
 // SCSS
 
-#one {
-  .left {
-    background: green;
-  }
-  .right {
-    background: blue;
-  }
-  #two {
-    @include halvsies( $WIDTH, $MIN_WIDTH );
-    .left {
-      background: orange;
-    }
-    .right {
-      background: yellow;
-    }
-  }
-}
+ #one {
+   .left {
+     background: green;
+   }
+   .right {
+     background: blue;
+   }
+   #two {
+     @include halvsies( $WIDTH, $MIN_WIDTH );
+     .left {
+       background: orange;
+     }
+     .right {
+       background: yellow;
+     }
+   }
+ }
