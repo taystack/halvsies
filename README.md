@@ -14,14 +14,14 @@ $MIN_WIDTH: The point at which the div displays over-under.
 
 // HTML
 
-<div
-  <div class='left'>
-    // left side content here
-  </div>
-  <div class='right'>
-    // right side content here
-  </div>
-</div>
+ <div
+   <div class='left'>
+     // left side content here
+   </div>
+   <div class='right'>
+     // right side content here
+   </div>
+ </div>
 
 // SCSS
 
